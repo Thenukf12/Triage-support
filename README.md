@@ -1,11 +1,21 @@
 # Triage-support
 Nathacks  2026 project- Triage support
 
+Triage support is a app that monitors patients vital sign using a wristband, finger clip and temperature sensor
 
+the app receives the live data and compares it to baseline max and min values, if any vitals do exceed the safe range
 
+it creates an alert for a nurse to reassess the patients condition. From there they can choose to change their
 
+ESI priority, return their status to normal or remove them from the dashboard.
 
+## 📁 Repository Files
 
+* `app.py`: Core Streamlit dashboard application UI, sorting logic, and interactive grid fragment[cite: 3].
+* `patient_monitoring.py`: Clinical monitoring class handling threshold checks, sudden change counters, and alert state machines[cite: 3].
+* `BLE_EPS32_Vital_Reader.py`: Async BLE receiver script connecting to ESP32 hardware and updating the shared JSON bridge[cite: 3].
+* `python telemetry_simulator.py`: Multi-patient simulation script generating realistic telemetry and critical spikes[cite: 3].
+* `live_vitals.json`: Shared atomic JSON file bridge linking hardware/simulator data to Streamlit[cite: 3].
 
 
 
