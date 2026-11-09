@@ -11,12 +11,15 @@ ESI priority, return their status to normal or remove them from the dashboard.
 
 ## 📁 Repository Files
 
-* `app.py`: Core Streamlit dashboard application UI, sorting logic, and interactive grid fragment[cite: 3].
-* `patient_monitoring.py`: Clinical monitoring class handling threshold checks, sudden change counters, and alert state machines[cite: 3].
-* `BLE_EPS32_Vital_Reader.py`: Async BLE receiver script connecting to ESP32 hardware and updating the shared JSON bridge[cite: 3].
-* `python telemetry_simulator.py`: Multi-patient simulation script generating realistic telemetry and critical spikes[cite: 3].
-* `live_vitals.json`: Shared atomic JSON file bridge linking hardware/simulator data to Streamlit[cite: 3].
-
+* `app.py`: Core Streamlit dashboard application UI, sorting logic, and interactive grid fragment.
+* `patient_monitoring.py`: Clinical monitoring class handling threshold checks, sudden change counters, and alert state machines.
+* `BLE_EPS32_Vital_Reader.py`: Async BLE receiver script connecting to ESP32 hardware and updating the shared JSON bridge.
+* `python telemetry_simulator.py`: Multi-patient simulation script generating realistic telemetry and critical spikes.
+* `live_vitals.json`: Shared atomic JSON file bridge linking hardware/simulator data to Streamlit.
+*`dht_temp__sensor`: Introduced the DHT 11 temperature sensor, contains helper functions for the main ESP32 code to setup the sensor and update the values.
+* `max30102_sensor`: Introduced the MAX30102 heart rate and SpO2 sensor, contains helper functions for the main ESP32 code to setup the sensor and update the values.
+* `OLED_ui`: Introduced the OLED Display Screen, contains helper functions for the main ESP32 code to setup the clear display and print the text on the screen.
+* `main_esp32_ini`: Contains the primary code to set up the GATT Server connection through Bluetooth, calls on each sensor function to update the values and send them into channels to be received by a device.
 
 
 Give it a try~
