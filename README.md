@@ -1,13 +1,21 @@
 # Triage-support
-Nathacks  2026 project- Triage support
+Triage Support is a real-time clinical monitoring platform designed for emergency departments and triage units.The system continuously tracks patient vital signs using wearable 
+wristbands, pulse oximeters, and temperature sensors. By comparing live telemetry streams against configurable baseline limits, it automatically identifies physiological 
+anomalies. When readings breach safe boundaries, the dashboard creates an urgent alert for nursing staff to re-evaluate the patient. From the dashboard, staff can dynamically 
+adjust Emergency Severity Index ($\text{ESI}$) priority ranks, acknowledge and reset alerts once vitals stabilize, or check in patients to process their admission and clear them 
+from active triage.
 
-Triage support is a app that monitors patients vital sign using a wristband, finger clip and temperature sensor
+⚡ Key CapabilitiesMulti-Sensor 
 
-the app receives the live data and compares it to baseline max and min values, if any vitals do exceed the safe range
+Telemetry: Continuous tracking of Heart Rate , Blood Oxygen Saturation , and Body Temperature.
 
-it creates an alert for a nurse to reassess the patients condition. From there they can choose to change their
+Automated Anomaly Detection: Flags readings exceeding safe boundaries to prompt immediate nursing intervention.
 
-ESI priority, return their status to normal or remove them from the dashboard.
+Priority Queuing: Automatically moves critical patients with active alerts to the top of the board.
+
+Integrated Actions: menu to adjust  priority, clear resolved alerts, or complete patient admissions.
+
+Hardware & Simulation Support: Connects wirelessly via Bluetooth Low Energy (BLE) to ESP32 hardware or runs an integrated multi-patient telemetry simulator.
 
 ## 📁 Repository Files
 
