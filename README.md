@@ -22,7 +22,7 @@ ESI priority, return their status to normal or remove them from the dashboard.
 * `main_esp32_ini`: Contains the primary code to set up the GATT Server connection through Bluetooth, calls on each sensor function to update the values and send them into channels to be received by a device.
 
 
-Give it a try~
+## 🎮 Give it a try
 
 1.go to the web app using the link below
 
@@ -34,7 +34,7 @@ https://triagesupport.streamlit.app/
 
 4.next try select that same patient and press the manage selected patient button.
 
-5.you can change the patients ESL, return its status to normal or check in the patient and remove them from the dashboard.
+5.you can change the patients ESI, return its status to normal or check in the patient and remove them from the dashboard.
 
 
 
