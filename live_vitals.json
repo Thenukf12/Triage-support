@@ -1,0 +1,20 @@
+{
+  "BAND-1": {
+    "heart_rate": 146,
+    "spo2": 97,
+    "temperature": 36.6,
+    "timestamp": 1794219514.9435143
+  },
+  "BAND-2": {
+    "heart_rate": 138,
+    "spo2": 80,
+    "temperature": 37.4,
+    "timestamp": 1794219514.9435143
+  },
+  "BAND-3": {
+    "heart_rate": 72,
+    "spo2": 99,
+    "temperature": 36.5,
+    "timestamp": 1794219514.9435143
+  }
+}
