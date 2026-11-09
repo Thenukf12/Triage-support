@@ -45,16 +45,17 @@ https://triagesupport.streamlit.app/
 5.you can change the patients ESI, return its status to normal or check in the patient and remove them from the dashboard.
 
 
+## Future Ideas:
+- take advantage of AI app builders to allow for easy setup on other systems.
+  
+- Integrate AI into the nurse alert system to cover more possibilities on how the vitals can change.
+  
+- measure respiratory rate and blood pressure
+  
+- Use personalized sensors to reduce the size of the band, and increase the accuracy of the readings
 
-**the code in this projected was made using the reference of:**
 
-Gemini AI
 
-Streamlit Library documentation
-
-VScode
-
-DTRobot MAX30102 documentation
 
 
 
