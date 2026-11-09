@@ -35,3 +35,20 @@ https://triagesupport.streamlit.app/
 4.next try select that same patient and press the manage selected patient button.
 
 5.you can change the patients ESL, return its status to normal or check in the patient and remove them from the dashboard.
+
+
+
+**the code in this projected was made using the reference of:**
+
+Gemini AI
+
+Streamlit Library documentation
+
+VScode
+
+DTRobot MAX30102 documentation
+
+
+
+
+
